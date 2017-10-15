@@ -1,0 +1,10 @@
+"patterns": [
+    {
+        "name": "constant.numeric.dna",
+        "match": "[@|&]\\d?\\{.*?\\}"
+    },
+    {
+        "name": "constant.numeric.dna-command",
+        "match": "/(\\!output|\\!stdout|\\!append|\\!separate|\\!tabsize|\\!include|\\+|=)"
+    }
+]

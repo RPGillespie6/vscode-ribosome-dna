@@ -1,0 +1,19 @@
+{
+	"name": "Ruby DNA",
+	"scopeName": "source.ruby.dna",
+	"patterns": [
+		{
+			"include": "#dots"
+		},
+		{
+			"include": "source.ruby"
+		}
+	],
+	"repository": {
+		"dots": {
+			"name": "comment.dna",
+			"begin": "^\\s*\\.",
+			"end": "$"
+		}
+	}
+}

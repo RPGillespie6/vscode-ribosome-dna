@@ -1,0 +1,19 @@
+{
+	"name": "Python DNA",
+	"scopeName": "source.python.dna",
+	"patterns": [
+		{
+			"include": "#dots"
+		},
+		{
+			"include": "source.python"
+		}
+	],
+	"repository": {
+		"dots": {
+			"name": "comment.dna",
+			"begin": "^\\s*\\.",
+			"end": "$"
+		}
+	}
+}

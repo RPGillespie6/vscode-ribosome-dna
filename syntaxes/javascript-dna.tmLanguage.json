@@ -1,0 +1,19 @@
+{
+	"name": "JavaScript DNA",
+	"scopeName": "source.js.dna",
+	"patterns": [
+		{
+			"include": "#dots"
+		},
+		{
+			"include": "source.js"
+		}
+	],
+	"repository": {
+		"dots": {
+			"name": "comment.dna",
+			"begin": "^\\s*\\.",
+			"end": "$"
+		}
+	}
+}

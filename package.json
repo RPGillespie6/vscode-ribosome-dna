@@ -1,0 +1,55 @@
+{
+    "name": "vscode-ribosome-dna",
+    "displayName": "Ribosome DNA",
+    "description": "Ribosome DNA file syntax highlighting",
+    "version": "1.0.0",
+    "publisher": "RPGillespie6",
+    "repository": {
+        "url": "https://github.com/RPGillespie6/vscode-ribosome-dna"
+    },
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "python-dna",
+                "aliases": ["Python DNA"],
+                "extensions": [".py.dna"],
+                "configuration": "./languages/python-dna.language-configuration.json"
+            },
+            {
+                "id": "javascript-dna",
+                "aliases": ["JavaScript DNA"],
+                "extensions": [".js.dna"],
+                "configuration": "./languages/javascript-dna.language-configuration.json"
+            },
+            {
+                "id": "ruby-dna",
+                "aliases": ["Ruby DNA"],
+                "extensions": [".rb.dna"],
+                "configuration": "./languages/ruby-dna.language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "python-dna",
+                "scopeName": "source.python.dna",
+                "path": "./syntaxes/python-dna.tmLanguage.json"
+            },
+            {
+                "language": "javascript-dna",
+                "scopeName": "source.js.dna",
+                "path": "./syntaxes/javascript-dna.tmLanguage.json"
+            },
+            {
+                "language": "ruby-dna",
+                "scopeName": "source.ruby.dna",
+                "path": "./syntaxes/ruby-dna.tmLanguage.json"
+            }
+        ]
+    }
+}
